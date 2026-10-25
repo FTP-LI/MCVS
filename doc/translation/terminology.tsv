@@ -1,0 +1,41 @@
+visual-inertial odometry	视觉惯性里程计
+visual-inertial navigation system	视觉惯性导航系统
+simultaneous localization and mapping	同步定位与建图
+inertial measurement unit	惯性测量单元
+multi-camera system	多相机系统
+camera rig	相机刚性支架组件
+global shutter	全局快门
+rolling shutter	卷帘快门
+hardware trigger	硬件触发
+hardware synchronization	硬件同步
+exposure time	曝光时间
+mid-exposure timestamp	曝光中点时间戳
+time offset	时间偏移
+clock drift	时钟漂移
+intrinsic calibration	内参标定
+extrinsic calibration	外参标定
+temporal calibration	时间标定
+spatial calibration	空间标定
+reprojection error	重投影误差
+bundle adjustment	光束法平差
+sliding window	滑动窗口
+marginalization	边缘化
+IMU pre-integration	IMU 预积分
+inertial bias	惯性传感器偏置
+observability	可观性
+loop closure	回环闭合
+loop detection	回环检测
+relocalization	重定位
+keyframe	关键帧
+factor graph	因子图
+ground truth	真值
+absolute trajectory error	绝对轨迹误差
+relative pose error	相对位姿误差
+photometric calibration	光度标定
+non-overlapping field of view	非重叠视场
+neural radiance field	神经辐射场
+novel view synthesis	新视角合成
+3D Gaussian Splatting	三维高斯泼溅
+multiresolution hash encoding	多分辨率哈希编码
+signed distance function	有符号距离函数
+floor plan priors	平面图先验

@@ -1,0 +1,155 @@
+{
+  "checked_at": "2026-09-14T15:06:32.966555+00:00",
+  "papers": [
+    {
+      "source_file": "2016_MultiCol_SLAM_Modular_Real_Time_Multi_Camera_SLAM.pdf",
+      "pages": 15,
+      "bytes": 2038291,
+      "sha256": "2e6414c4a355a450fcf385c8152fe5823765b34e07d2587a37cb5adf353b77fa",
+      "low_text_pages": [],
+      "chinese_characters": 0,
+      "planned_output": "zh/2016_MultiCol_SLAM_Modular_Real_Time_Multi_Camera_SLAM.zh-CN.deepl.pdf",
+      "output_present": false
+    },
+    {
+      "source_file": "2017_VINS_Mono_Robust_Versatile_Monocular_VINS.pdf",
+      "pages": 17,
+      "bytes": 4382711,
+      "sha256": "1f44f92f057cbb05a6570f14d2fe5cae2b9736198a8eeca7c93438adbc38a087",
+      "low_text_pages": [],
+      "chinese_characters": 0,
+      "planned_output": "zh/2017_VINS_Mono_Robust_Versatile_Monocular_VINS.zh-CN.deepl.pdf",
+      "output_present": false
+    },
+    {
+      "source_file": "2018_TUM_VI_Benchmark.pdf",
+      "pages": 9,
+      "bytes": 3247733,
+      "sha256": "aba8e5054e8caeac0505372e832df35851f4ef0790d97bca270204c93ba0c6b6",
+      "low_text_pages": [],
+      "chinese_characters": 0,
+      "planned_output": "zh/2018_TUM_VI_Benchmark.zh-CN.deepl.pdf",
+      "output_present": false
+    },
+    {
+      "source_file": "2020_MIMC_VINS_Multi_IMU_Multi_Camera_VINS.pdf",
+      "pages": 20,
+      "bytes": 3885908,
+      "sha256": "d53ceecf42a6f914734f569624f63421746ed95df6906e5ee5b10134f46a230a",
+      "low_text_pages": [],
+      "chinese_characters": 0,
+      "planned_output": "zh/2020_MIMC_VINS_Multi_IMU_Multi_Camera_VINS.zh-CN.deepl.pdf",
+      "output_present": false
+    },
+    {
+      "source_file": "2020_OpenVINS_Research_Platform_for_Visual_Inertial_Estimation.pdf",
+      "pages": 7,
+      "bytes": 547853,
+      "sha256": "194e432eda4462dfb831108c62a486ca72becc03c90dc53db81087a04e683a11",
+      "low_text_pages": [],
+      "chinese_characters": 0,
+      "planned_output": "zh/2020_OpenVINS_Research_Platform_for_Visual_Inertial_Estimation.zh-CN.deepl.pdf",
+      "output_present": false
+    },
+    {
+      "source_file": "2020_VersaVIS_Open_Versatile_Multi_Camera_Visual_Inertial_Sensor_Suite.pdf",
+      "pages": 18,
+      "bytes": 15183864,
+      "sha256": "9f6789b6de4e3b081c1aecd9b1bd6e1221fe43929810575739ab9da7ff272f35",
+      "low_text_pages": [],
+      "chinese_characters": 0,
+      "planned_output": "zh/2020_VersaVIS_Open_Versatile_Multi_Camera_Visual_Inertial_Sensor_Suite.zh-CN.deepl.pdf",
+      "output_present": false
+    },
+    {
+      "source_file": "2021_ORB_SLAM3_Visual_Visual_Inertial_Multimap_SLAM.pdf",
+      "pages": 18,
+      "bytes": 5049669,
+      "sha256": "4d119517be7565c9651fbf1e36a330d605b7a534d738558858c96feca7b99156",
+      "low_text_pages": [],
+      "chinese_characters": 0,
+      "planned_output": "zh/2021_ORB_SLAM3_Visual_Visual_Inertial_Multimap_SLAM.zh-CN.deepl.pdf",
+      "output_present": false
+    },
+    {
+      "source_file": "2022_Instant_NGP_Multiresolution_Hash_Encoding.pdf",
+      "pages": 15,
+      "bytes": 17686120,
+      "sha256": "b3631fa8f707fe81d7dd4dfb6f8d35cf1bbd13ffd7fb1f457495c837ab00d93a",
+      "low_text_pages": [],
+      "chinese_characters": 0,
+      "planned_output": "zh/2022_Instant_NGP_Multiresolution_Hash_Encoding.zh-CN.deepl.pdf",
+      "output_present": false
+    },
+    {
+      "source_file": "2022_Neural_3D_Video_Synthesis_from_Multi_View_Video.pdf",
+      "pages": 11,
+      "bytes": 23384079,
+      "sha256": "e1b2a68bebb279cd974922efb42be387de712839d5bbfd2ba4dee330a767bb8a",
+      "low_text_pages": [],
+      "chinese_characters": 0,
+      "planned_output": "zh/2022_Neural_3D_Video_Synthesis_from_Multi_View_Video.zh-CN.deepl.pdf",
+      "output_present": false
+    },
+    {
+      "source_file": "2023_3D_Gaussian_Splatting_for_Real_Time_Radiance_Field_Rendering.pdf",
+      "pages": 14,
+      "bytes": 24343676,
+      "sha256": "d4b85a5d86f389dcd702203e6c4f21cdcce7f49450f33bc4adeadfee6edca2c7",
+      "low_text_pages": [],
+      "chinese_characters": 0,
+      "planned_output": "zh/2023_3D_Gaussian_Splatting_for_Real_Time_Radiance_Field_Rendering.zh-CN.deepl.pdf",
+      "output_present": false
+    },
+    {
+      "source_file": "2023_MAVIS_Multi_Camera_Augmented_Visual_Inertial_SLAM.pdf",
+      "pages": 7,
+      "bytes": 2517889,
+      "sha256": "81d41cd07c46be60a06306416be37fa68cd4cff61b2efdaec19ec06e392691ac",
+      "low_text_pages": [],
+      "chinese_characters": 0,
+      "planned_output": "zh/2023_MAVIS_Multi_Camera_Augmented_Visual_Inertial_SLAM.zh-CN.deepl.pdf",
+      "output_present": false
+    },
+    {
+      "source_file": "2023_Multi_Camera_VISLAM_Autonomous_Valet_Parking.pdf",
+      "pages": 8,
+      "bytes": 5129691,
+      "sha256": "7cd03b081b7aa8157ff24baed47cb2c63502e8ecef6f6d66c17c3824d76139d3",
+      "low_text_pages": [],
+      "chinese_characters": 0,
+      "planned_output": "zh/2023_Multi_Camera_VISLAM_Autonomous_Valet_Parking.zh-CN.deepl.pdf",
+      "output_present": false
+    },
+    {
+      "source_file": "2024_Hilti_SLAM_Challenge_2023.pdf",
+      "pages": 8,
+      "bytes": 1384843,
+      "sha256": "17f555ce20e2483236a37630f07b2a83854b4096807eeed17c1942e7bde15e43",
+      "low_text_pages": [],
+      "chinese_characters": 0,
+      "planned_output": "zh/2024_Hilti_SLAM_Challenge_2023.zh-CN.deepl.pdf",
+      "output_present": false
+    },
+    {
+      "source_file": "2026_Calousel_Non_Overlapping_Multi_Camera_Calibration.pdf",
+      "pages": 8,
+      "bytes": 8117010,
+      "sha256": "26e4df4930f7b13d1a4b2a128fd978c0f6824b49977346f97a36cc22c73ff59d",
+      "low_text_pages": [],
+      "chinese_characters": 0,
+      "planned_output": "zh/2026_Calousel_Non_Overlapping_Multi_Camera_Calibration.zh-CN.deepl.pdf",
+      "output_present": false
+    },
+    {
+      "source_file": "2026_Hilti_Trimble_Oxford_360_VI_Benchmark.pdf",
+      "pages": 9,
+      "bytes": 8524829,
+      "sha256": "6cc1cd3b5a53cd0f73c628d18e98303751e902174250d5b873a8909a04ec91f4",
+      "low_text_pages": [],
+      "chinese_characters": 0,
+      "planned_output": "zh/2026_Hilti_Trimble_Oxford_360_VI_Benchmark.zh-CN.deepl.pdf",
+      "output_present": false
+    }
+  ]
+}
