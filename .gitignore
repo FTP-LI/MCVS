@@ -12,3 +12,11 @@ doc/translation/.state/
 # Operating-system metadata.
 .DS_Store
 Thumbs.db
+
+# Research cache and rendered document QA intermediates.
+.firecrawl/
+tmp/learning/
+.venv-learning/
+
+# Local task planning intermediates
+.planning/

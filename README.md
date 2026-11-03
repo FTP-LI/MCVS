@@ -2,6 +2,12 @@
 
 MCVS 是 **Multi-Camera Vision System** 的缩写。本仓库用于沉淀多相机智能硬件系统从论文研究、技术路线、原型验证到工程化落地的资料。
 
+**零基础从这里开始：[学习体系入口](doc/learning/README.md)。** 按每周 4–6 小时规划 36 周，提供中文基础手册、每周任务、实验验收、路线图、打印版和进度表。新增硬件总预算不超过 1000 元，核心采购上限 520 元，分阶段购买。今天先做 [第一周行动单](doc/learning/first_week.md)，不需要先买设备或读完论文。
+
+学习方案编制与个人学习进度分开管理：[进度表](doc/learning/progress.md)从零开始，按实际证据逐项验收。原有工程方案调研和论文资料继续保留。
+
+申请与科研安排（2026-11-02）：计划申请 2027 年中外合作办学硕士，院校与专业待定。新增 [申请前科研计划](doc/research/application_research_plan.md)，把可复现实验、论文准备与申请材料并行安排，保留 ICRA/IROS 等高水平投稿目标；各阶段完成状态按真实成果记录。
+
 当前研究重点不是单纯购买相机，也不是单纯复现某个 SLAM 算法，而是把下面这条系统链路打通：
 
 ```text
@@ -30,6 +36,10 @@ Camera Rig
 
 | 文件 | 内容 |
 |---|---|
+| [doc/research/application_research_plan.md](doc/research/application_research_plan.md) | 暂定 2027 年硕士申请前科研安排、论文成熟度与申请材料准备 |
+| [doc/learning/README.md](doc/learning/README.md) | 零基础学习入口、36 周路径与六个关卡 |
+| [doc/learning/MCVS_learning_guide.pdf](doc/learning/MCVS_learning_guide.pdf) | 可打印中文学习手册与进度页 |
+| [doc/learning/hardware.md](doc/learning/hardware.md) | 1000 元预算分配、具体型号、官方来源与采购门槛 |
 | [doc/papers.md](doc/papers.md) | 已筛选论文、数据集、工具和工程参考 |
 | [doc/technical_route.md](doc/technical_route.md) | 推荐技术路线、阶段目标、验证指标和风险 |
 | [doc/hardware_scheme_research.md](doc/hardware_scheme_research.md) | 旧版 README 中保留下来的硬件、同步、采集与系统方案调研 |
@@ -86,7 +96,9 @@ Phase 5: 工程化样机
 
 ## 5. 推荐原型方向
 
-短期最建议先做：
+以下是具备基础后的工程原型方向，需要独立预算。当前零基础阶段先按 [学习硬件方案](doc/learning/hardware.md)使用普通 USB 摄像头、板载 IMU 与公开数据完成练习。
+
+进入工程阶段后建议先做：
 
 ```text
 2 个全局快门相机
@@ -96,6 +108,8 @@ Phase 5: 工程化样机
 + Kalibr / OpenVINS 标定与评估
 + ROS bag / MCAP 数据记录
 ```
+
+时间戳需明确所指事件和时钟域。全局曝光可约定中心曝光时刻；卷帘快门还要建模逐行时间，不能用一个中心时刻代表所有像素行。学习用 USB 相机与独立 IMU 并不自动具备这里要求的硬件同步。
 
 理由：
 
@@ -144,21 +158,15 @@ EVT DVT PVT
 
 ## 8. 下一步
 
-1. 读完 [doc/papers.md](doc/papers.md) 中 P0 论文，先建立同步、标定和 VIO/SLAM 的共同语言。
-2. 按 [doc/technical_route.md](doc/technical_route.md) 的 Phase 1 搭建 2-Camera + IMU 原型。
-3. 设计同步验证实验：示波器测触发、LED timing board 测曝光一致性、日志检查帧号和时间戳。
-4. 建立标定流程：相机内参、相机间外参、Camera-IMU 外参、Camera-IMU time offset。
-5. 再进入 OpenVINS / VINS-Fusion / ORB-SLAM3 / MAVIS 的算法对比。
-
-一句话总结：
-
-```text
-MCVS 的主线是：先把同步和标定做成可信的数据生产系统，再把这些数据送进 VIO、SLAM 和 3D 重建。
-```
+1. 按 [第一周行动单](doc/learning/first_week.md)完成单位计算和首个 Python 练习。
+2. 按 [36 周课程](doc/learning/curriculum.md)依次补齐编程、几何、标定、IMU 与时钟基础，用 [实验任务书](doc/learning/labs.md)和 [进度表](doc/learning/progress.md)验收。
+3. 达到相应阶段后，再按 [硬件采购门槛](doc/learning/hardware.md)添置设备；基础阶段沿用现有电脑。
+4. 第 25–30 周核对研究环境，运行已有 VIO 示例并评测，再读 VersaVIS 与 OpenVINS。更多论文按 [阅读导航](doc/learning/resources.md)选择。
+5. 完成学习关卡后，再进入 [工程技术路线](doc/technical_route.md)的硬件同步、Camera-IMU 时空标定、多相机扩展与算法对比。
 
 ## 9. 工程目录与获取
 
-当前工程包含技术调研资料、15 篇英文论文 PDF，以及中文全文翻译的配对清单、术语表和处理脚本。
+当前工程包含零基础学习体系、技术调研资料、15 篇英文论文 PDF，以及中文全文翻译的配对清单、术语表和处理脚本。中文学习手册为原创教学整理，不是论文的完整译本。
 
 ```text
 MCVS/
@@ -169,6 +177,11 @@ MCVS/
     |-- hardware_scheme_research.md
     |-- papers.md
     |-- technical_route.md
+    |-- learning/                    # Curriculum, labs, hardware, progress and examples
+    |   |-- README.md
+    |   |-- MCVS_learning_guide.pdf
+    |   |-- assets/                  # Roadmap and printable calibration target
+    |   `-- tools/                   # Reproducible material builder
     |-- pdf/                         # 15 original paper PDFs
     `-- translation/
         |-- README.md
